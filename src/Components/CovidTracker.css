@@ -1,0 +1,42 @@
+.covid-text{
+    color: #000;
+    font-weight: 800;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: background .2s ease-in-out;
+    word-wrap: break-word;
+}
+.aboutcard{
+	padding: 0;
+}
+.bg-primary{
+	background-color: #3f51b5!important;
+}
+.live{
+	width:5vw;
+	height:5vh;
+	margin-left:38vw;
+}
+.container{
+	margin-top: 15vh;
+	margin-bottom: 15vh;
+}
+.hidden{
+	display: none;
+}
+.disabled:before {
+  content:" ";
+  display:block;
+  position:absolute;
+  top:0;left:0;right:0;bottom:0;
+  z-index:10;
+}
+.btn-green{
+	background: #DBEFDC!important;
+	color:#000!important;
+}
+.highlighted{
+	/*background: #F7F700;*/
+	font-weight: bold;
+	/*position: relative;*/
+}
